@@ -1,6 +1,6 @@
 1. Front end tests are written in 2 seperate spec files (actorUpcomingTest and imdbTest) 
 
-2.Back end tests are written in poke-api-tests file. 
+2. Back end tests are written in poke-api-tests file. 
 
 3. Gherkin algorithm in briteManualGherkin.txt file
 
