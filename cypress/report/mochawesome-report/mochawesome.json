@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-05T11:06:27.298Z",
+    "end": "2024-08-05T11:07:28.374Z",
+    "duration": 61076,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "75d439ff-c4a7-48e3-a469-fafa86ba6597",
+      "title": "",
+      "fullFile": "cypress\\e2e\\actorUpcomingTest.cy.js",
+      "file": "cypress\\e2e\\actorUpcomingTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3ce45816-b0b8-4403-93d0-0c2e5bc3ff9d",
+          "title": "Brite Test Frontend",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test actors upcoming in pre-production",
+              "fullTitle": "Brite Test Frontend Test actors upcoming in pre-production",
+              "timedOut": null,
+              "duration": 58953,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "landingPage.searchBar('Nicolas Cage');\nlandingPage.searchResults();\ncelebrityProfilePage.upcomingProjects('Pre-production');",
+              "err": {},
+              "uuid": "a5818da2-3272-4d1d-95a1-4158999b9457",
+              "parentUUID": "3ce45816-b0b8-4403-93d0-0c2e5bc3ff9d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a5818da2-3272-4d1d-95a1-4158999b9457"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 58953,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

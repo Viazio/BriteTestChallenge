@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-05T11:07:34.386Z",
+    "end": "2024-08-05T11:11:45.992Z",
+    "duration": 251606,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "13991df1-bff6-4d67-8c97-874e060a6fa2",
+      "title": "",
+      "fullFile": "cypress\\e2e\\imdbTests.cy.js",
+      "file": "cypress\\e2e\\imdbTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+          "title": "Brite Test Frontend",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test top box office",
+              "fullTitle": "Brite Test Frontend Test top box office",
+              "timedOut": null,
+              "duration": 56309,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "landingPage.menuBar('Top Box Office');\nlandingPage.clickByContains('2.');\nmoviePage.imdbRating();\nmoviePage.userRatingOption();\nmoviePage.rateMovie();",
+              "err": {},
+              "uuid": "ffbdb9ba-e4fe-46dd-bec1-b148221d5a2c",
+              "parentUUID": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test top 250 TV Shows",
+              "fullTitle": "Brite Test Frontend Test top 250 TV Shows",
+              "timedOut": null,
+              "duration": 70460,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "landingPage.menuBar('Top 250 TV Shows');\nlandingPage.clickByContains('Breaking Bad');\nmoviePage.openPhotos();\nmoviePage.openGallery();\nmoviePage.openGalleryFilter();\nmoviePage.openMorePeople();\nmoviePage.selectPhoto();",
+              "err": {},
+              "uuid": "8599184f-f1a6-4443-8827-57deca517e40",
+              "parentUUID": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test born today section",
+              "fullTitle": "Brite Test Frontend Test born today section",
+              "timedOut": null,
+              "duration": 62104,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "landingPage.menuBar('Born Today');\nlandingPage.clickByContains('Birthday:');\nlandingPage.clickByContains('Birthday');\nbornTodayPage.searchByBirthday();\nbornTodayPage.takeScreen('Third profile born yesterday');",
+              "err": {},
+              "uuid": "c61fdf8c-e71d-4389-92ec-42226c9f6c43",
+              "parentUUID": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test born 40 years ago today ",
+              "fullTitle": "Brite Test Frontend Test born 40 years ago today ",
+              "timedOut": null,
+              "duration": 57233,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "landingPage.menuBar('Born Today');\nlandingPage.clickByContains('Birthday:');\nlandingPage.clickByContains('Birth date');\nbornTodayPage.searchByBirthDate();\nbornTodayPage.takeScreen('First link in description');",
+              "err": {},
+              "uuid": "6927f8b4-1a8c-451c-b189-b86169c59d72",
+              "parentUUID": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ffbdb9ba-e4fe-46dd-bec1-b148221d5a2c",
+            "8599184f-f1a6-4443-8827-57deca517e40",
+            "c61fdf8c-e71d-4389-92ec-42226c9f6c43",
+            "6927f8b4-1a8c-451c-b189-b86169c59d72"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 246106,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

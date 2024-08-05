@@ -1,0 +1,104 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome6",
+    "definitions": {
+        "Welcome6": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "firmness": {
+                    "$ref": "#/definitions/Firmness"
+                },
+                "flavors": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Flavor"
+                    }
+                },
+                "growth_time": {
+                    "type": "integer"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "item": {
+                    "$ref": "#/definitions/Firmness"
+                },
+                "max_harvest": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "natural_gift_power": {
+                    "type": "integer"
+                },
+                "natural_gift_type": {
+                    "$ref": "#/definitions/Firmness"
+                },
+                "size": {
+                    "type": "integer"
+                },
+                "smoothness": {
+                    "type": "integer"
+                },
+                "soil_dryness": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "firmness",
+                "flavors",
+                "growth_time",
+                "id",
+                "item",
+                "max_harvest",
+                "name",
+                "natural_gift_power",
+                "natural_gift_type",
+                "size",
+                "smoothness",
+                "soil_dryness"
+            ],
+            "title": "Welcome6"
+        },
+        "Firmness": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                }
+            },
+            "required": [
+                "name",
+                "url"
+            ],
+            "title": "Firmness"
+        },
+        "Flavor": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "flavor": {
+                    "$ref": "#/definitions/Firmness"
+                },
+                "potency": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "flavor",
+                "potency"
+            ],
+            "title": "Flavor"
+        }
+    }
+}

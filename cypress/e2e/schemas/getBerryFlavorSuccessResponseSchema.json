@@ -1,0 +1,962 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "berries": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "berry": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "potency": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "berry",
+              "potency"
+            ]
+          }
+        ]
+      },
+      "contest_type": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "url"
+        ]
+      },
+      "id": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "names": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "language": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "language",
+              "name"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "language": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "language",
+              "name"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "language": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "language",
+              "name"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "language": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "language",
+              "name"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "language": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "url"
+                ]
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "language",
+              "name"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "berries",
+      "contest_type",
+      "id",
+      "name",
+      "names"
+    ]
+  }

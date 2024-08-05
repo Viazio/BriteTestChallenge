@@ -1,0 +1,104 @@
+Feature: Users are displayed with Success or Error messages based on Input values.
+
+//Test Cases 
+//Success scenarios
+
+//3.min valid boundary value : 10 
+Scenario : Verify minimum input value results in Success response
+	Given 	Form is loaded successfully 
+	When  	User types in value : 10 in input field
+	And 	User clicks on "Send" button	
+	Then 	"Success" message is displayed.
+
+//4.valid boundary +1 : 11
+Scenario : Verify incrementing boundary value results in Success response
+	Given 	Form is loaded successfully 
+	When 	User clicks on increment arrows  to value : 11 in input field
+	And 	User clicks on "Send" button	
+	Then 	"Success" message is displayed.
+
+
+//5. nominal value : 55
+Scenario : Verify nominal input value results in Success response
+	Given	Form is loaded successfully 
+	When 	User types in value : 55 in input field
+	And 	User clicks on "Send" button	
+	Then 	"Success" message is displayed.
+
+//7. max valid boundary : 100
+Scenario : Verify maximum input value results in Success response
+	Given 	Form is loaded successfully 
+	When 	User types in value : 100 in input field
+	And 	User clicks on "Send" button	
+	Then 	"Success" message is displayed.
+
+//6.valid boundary -1 : 99 
+Scenario : Verify decrementing boundary value results in Success response
+	Given 	Form is loaded successfully 
+	When 	User clicks decrement arrow to value : 99 in input field
+	And 	User clicks on "Send" button	
+	Then 	"Success" message is displayed.
+
+
+//Failure Scenarios 
+//2.Invalid Boundary value : 9 
+Scenario : Verify invalid boundary value in minimum partition 
+	Given 	Form is loaded successfully 
+	When 	User types in value : 9 in input field
+	And 	User clicks on "Send" button
+	Then 	"Error" message is displayed
+
+//8. Invalid boundary : 101
+Scenario : Verify invalid boundary value in maximum partition
+	Given 	Form is loaded successfully
+	When 	User types in value : 101 in input field
+	And 	User clicks on "Send" button
+	Then 	"Error" message is displayed
+
+//1.a. Input error : alpha numerics
+Scenario : Verify input field doesnot allow alpha-numeric values
+	Given 	Form is loaded successfully
+	When 	User types in "abc123" in the input field
+	Then 	Input field remains empty
+
+//1.b. null value 
+Scenario : Verify null input results in "Error" message
+	Given 	Form is loaded successfully
+	When 	User clicks on "Send" button
+	Then 	"Error" message is displayed
+
+//1.c. negtive value 
+Scenario :  Verify negative values in input field results in "Error" message
+	Given 	Form is loaded successfully
+	When 	User types in value : "-9" in input field
+	When 	User clicks on "Send" button
+	Then 	"Error" message is displayed
+
+//1d.  zero
+Scenario : Verify input value "0" results in "Error" message
+	Given 	Form is loaded successfully
+	When 	User types in value : 0 in input field
+	When 	User clicks on "Send" button
+	Then 	"Error" message is displayed
+
+//1e.  e234
+Scenario : Verify input values with exponential signs results in "Error" message 
+	Given 	Form is loaded successfully
+	When 	User types in value : "e234" in input field
+	When 	User clicks on "Send" button
+	Then 	"Error" message is displayed
+
+
+//9. Browsers that donot support input type = number the input falls back to type text!html-5
+Scenario : Verify invalid input value in unsupported browsers result in "Error" message
+	Given 	Form is loaded successfully
+	When 	User types in value : "via" in input field
+	When 	User clicks on "Send" button
+	Then 	"Error" message is displayed
+
+
+
+
+
+
+
