@@ -6,6 +6,8 @@
 
 4. Bug Report is saved in briteBugReport.pdf
 
+5.  Automated test reports saved in cypress\report\britetest.html
+
     INSTALL NPM & NODE.JS
     ````
     https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
