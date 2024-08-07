@@ -4,14 +4,13 @@ import { CelebrityProfilePage } from "./pages/celebrityProfilePage"
 const landingPage = new LandingPage
 const celebrityProfilePage = new CelebrityProfilePage
 
-describe('Brite Test Frontend', () => {
+describe('Brite Test Frontend in '+Cypress.browser.name+'', () => {
   
     beforeEach(function(){
       // Launch browser and navigate to IMDB website
       cy.visit('/', {
         headers: {
-            'accept': 'application/json, text/plain, */*',
-            'user-agent': 'Mozilla/5.0'
+            'accept': 'application/json, text/plain, */*'
             }
         });
 

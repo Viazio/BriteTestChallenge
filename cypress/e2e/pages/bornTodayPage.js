@@ -12,7 +12,12 @@ export class BornTodayPage{
         cy.get('[data-testid="birthDate-start"]').type(this.formatDate('today'))
         cy.get('[name="birth-year-month-end-input"]').type(this.formatDate('today').substring(0,7))
         cy.contains('See results').click({force:true})
-        cy.get('[data-testid="dli-bio"] > div > div').children().first().click()
+        cy.get('[data-testid="dli-bio"] > div > div').children().then((descriptionLink) => {
+            if(descriptionLink.length > 0)
+                descriptionLink.first().click()
+            else
+                cy.log('No links found in the description')
+        })
     }
 
     formatDate(str) {

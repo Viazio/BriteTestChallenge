@@ -1,3 +1,4 @@
+const { version } = require("chai");
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
@@ -8,6 +9,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://www.imdb.com/',
     chromeWebSecurity: true,
+    userAgent: 'Mozilla/5.0',
     watchForFileChanges:true,
     pageLoadTimeout : 72000,
     reporter:'mochawesome',

@@ -1,24 +1,24 @@
 {
   "stats": {
-    "suites": 3,
-    "tests": 9,
-    "passes": 9,
+    "suites": 4,
+    "tests": 10,
+    "passes": 10,
     "pending": 0,
     "failures": 0,
-    "testsRegistered": 9,
+    "testsRegistered": 10,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
-    "start": "2024-08-05T11:06:27.298Z",
-    "end": "2024-08-05T11:11:51.745Z",
-    "duration": 324447
+    "start": "2024-08-07T05:38:19.883Z",
+    "end": "2024-08-07T05:42:53.584Z",
+    "duration": 273701
   },
   "results": [
     {
-      "uuid": "13991df1-bff6-4d67-8c97-874e060a6fa2",
+      "uuid": "590835cd-8569-4e7e-a061-6ca9750adf82",
       "title": "",
       "fullFile": "cypress\\e2e\\imdbTests.cy.js",
       "file": "cypress\\e2e\\imdbTests.cy.js",
@@ -27,8 +27,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
-          "title": "Brite Test Frontend",
+          "uuid": "c52c7dc9-d6ec-4164-bbe4-4229541b41db",
+          "title": "Brite Test Frontend in firefox",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -36,9 +36,9 @@
           "tests": [
             {
               "title": "Test top box office",
-              "fullTitle": "Brite Test Frontend Test top box office",
+              "fullTitle": "Brite Test Frontend in firefox Test top box office",
               "timedOut": null,
-              "duration": 56309,
+              "duration": 30596,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,16 +47,16 @@
               "context": null,
               "code": "landingPage.menuBar('Top Box Office');\nlandingPage.clickByContains('2.');\nmoviePage.imdbRating();\nmoviePage.userRatingOption();\nmoviePage.rateMovie();",
               "err": {},
-              "uuid": "ffbdb9ba-e4fe-46dd-bec1-b148221d5a2c",
-              "parentUUID": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+              "uuid": "ceb9f342-8b40-46af-a045-5d8d98ad88b4",
+              "parentUUID": "c52c7dc9-d6ec-4164-bbe4-4229541b41db",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Test top 250 TV Shows",
-              "fullTitle": "Brite Test Frontend Test top 250 TV Shows",
+              "fullTitle": "Brite Test Frontend in firefox Test top 250 TV Shows",
               "timedOut": null,
-              "duration": 70460,
+              "duration": 45599,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,16 +65,16 @@
               "context": null,
               "code": "landingPage.menuBar('Top 250 TV Shows');\nlandingPage.clickByContains('Breaking Bad');\nmoviePage.openPhotos();\nmoviePage.openGallery();\nmoviePage.openGalleryFilter();\nmoviePage.openMorePeople();\nmoviePage.selectPhoto();",
               "err": {},
-              "uuid": "8599184f-f1a6-4443-8827-57deca517e40",
-              "parentUUID": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+              "uuid": "a689686f-f8a0-4867-a7c2-6db0dda74207",
+              "parentUUID": "c52c7dc9-d6ec-4164-bbe4-4229541b41db",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Test born today section",
-              "fullTitle": "Brite Test Frontend Test born today section",
+              "fullTitle": "Brite Test Frontend in firefox Test born today section",
               "timedOut": null,
-              "duration": 62104,
+              "duration": 48093,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -83,16 +83,16 @@
               "context": null,
               "code": "landingPage.menuBar('Born Today');\nlandingPage.clickByContains('Birthday:');\nlandingPage.clickByContains('Birthday');\nbornTodayPage.searchByBirthday();\nbornTodayPage.takeScreen('Third profile born yesterday');",
               "err": {},
-              "uuid": "c61fdf8c-e71d-4389-92ec-42226c9f6c43",
-              "parentUUID": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+              "uuid": "9816daf3-102b-42a6-a581-e48ef0f8327b",
+              "parentUUID": "c52c7dc9-d6ec-4164-bbe4-4229541b41db",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Test born 40 years ago today ",
-              "fullTitle": "Brite Test Frontend Test born 40 years ago today ",
+              "fullTitle": "Brite Test Frontend in firefox Test born 40 years ago today ",
               "timedOut": null,
-              "duration": 57233,
+              "duration": 27243,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -101,23 +101,23 @@
               "context": null,
               "code": "landingPage.menuBar('Born Today');\nlandingPage.clickByContains('Birthday:');\nlandingPage.clickByContains('Birth date');\nbornTodayPage.searchByBirthDate();\nbornTodayPage.takeScreen('First link in description');",
               "err": {},
-              "uuid": "6927f8b4-1a8c-451c-b189-b86169c59d72",
-              "parentUUID": "b28ea2bb-aea9-43da-970e-5f97db5c860b",
+              "uuid": "85f49190-6ce6-4b94-ae78-360fc305ba7b",
+              "parentUUID": "c52c7dc9-d6ec-4164-bbe4-4229541b41db",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ffbdb9ba-e4fe-46dd-bec1-b148221d5a2c",
-            "8599184f-f1a6-4443-8827-57deca517e40",
-            "c61fdf8c-e71d-4389-92ec-42226c9f6c43",
-            "6927f8b4-1a8c-451c-b189-b86169c59d72"
+            "ceb9f342-8b40-46af-a045-5d8d98ad88b4",
+            "a689686f-f8a0-4867-a7c2-6db0dda74207",
+            "9816daf3-102b-42a6-a581-e48ef0f8327b",
+            "85f49190-6ce6-4b94-ae78-360fc305ba7b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 246106,
+          "duration": 151531,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -133,7 +133,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "c6c52c53-a23e-4e68-bbfa-16d7c3762081",
+      "uuid": "0fb7cdd1-27de-4d87-b4a6-7c242871f0d8",
       "title": "",
       "fullFile": "cypress\\e2e\\poke-api-tests.cy.js",
       "file": "cypress\\e2e\\poke-api-tests.cy.js",
@@ -142,8 +142,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0922c9bd-e783-45af-8c0d-7b44f65727c3",
-          "title": "Brite Test Backend",
+          "uuid": "cbab2781-557c-4ed7-a56f-c9605774759c",
+          "title": "Brite Test Backend in firefox",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -151,9 +151,9 @@
           "tests": [
             {
               "title": "Test berry by id ",
-              "fullTitle": "Brite Test Backend Test berry by id ",
+              "fullTitle": "Brite Test Backend in firefox Test berry by id ",
               "timedOut": null,
-              "duration": 561,
+              "duration": 1153,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -162,16 +162,16 @@
               "context": null,
               "code": "cy.log('Get berry by id success scenario');\ncy.getBerry('1').then(response => {\n  cy.log(JSON.stringify(response.body));\n  expect(response.status).to.be.eq(200);\n  expect(response.body).to.be.jsonSchema(berrySuccessSchema);\n});\ncy.log('Get berry by id failure scenario');\ncy.getBerry('1q').then(response => {\n  cy.log(JSON.stringify(response.body));\n  expect(response.status).to.be.eq(404);\n  expect(response.body).to.be.eq('Not Found');\n});",
               "err": {},
-              "uuid": "35d8fe6e-9988-4a8b-b67d-d9454e3c7537",
-              "parentUUID": "0922c9bd-e783-45af-8c0d-7b44f65727c3",
+              "uuid": "07ff921d-3b58-42ee-b763-39a4113d7f7e",
+              "parentUUID": "cbab2781-557c-4ed7-a56f-c9605774759c",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Test berry by name ",
-              "fullTitle": "Brite Test Backend Test berry by name ",
+              "fullTitle": "Brite Test Backend in firefox Test berry by name ",
               "timedOut": null,
-              "duration": 191,
+              "duration": 1052,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -180,16 +180,16 @@
               "context": null,
               "code": "cy.log('Get berry by name success scenario');\ncy.getBerry('sitrus').then(response => {\n  cy.log(JSON.stringify(response.body));\n  expect(response.status).to.be.eq(200);\n  expect(response.body).to.be.jsonSchema(berrySuccessSchema);\n});\ncy.log('Get berry by name failure scenario');\ncy.getBerry('Brite').then(response => {\n  cy.log(JSON.stringify(response.body));\n  expect(response.status).to.be.eq(404);\n  expect(response.body).to.be.eq('Not Found');\n});",
               "err": {},
-              "uuid": "f91dbc62-41bd-4e38-ad11-b6b35e893cc4",
-              "parentUUID": "0922c9bd-e783-45af-8c0d-7b44f65727c3",
+              "uuid": "1e0a49c5-0d5c-4850-bd72-f134852181ea",
+              "parentUUID": "cbab2781-557c-4ed7-a56f-c9605774759c",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Test berry-flavor by name ",
-              "fullTitle": "Brite Test Backend Test berry-flavor by name ",
+              "fullTitle": "Brite Test Backend in firefox Test berry-flavor by name ",
               "timedOut": null,
-              "duration": 152,
+              "duration": 687,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -198,16 +198,16 @@
               "context": null,
               "code": "cy.log('Get list of all berries with sweet flavor');\ncy.getBerryByFlavor('sweet').then(response => {\n  cy.log(JSON.stringify(response.body));\n  expect(response.status).to.be.eq(200);\n  expect(response.body).to.be.jsonSchema(berryFlavorSuccessSchema);\n});",
               "err": {},
-              "uuid": "8126be8e-6235-44ed-8cd4-152c6aeccfd8",
-              "parentUUID": "0922c9bd-e783-45af-8c0d-7b44f65727c3",
+              "uuid": "df09eb75-17d4-4dd5-a494-b3cd95bda547",
+              "parentUUID": "cbab2781-557c-4ed7-a56f-c9605774759c",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Find berry with high potency in spicy flavor",
-              "fullTitle": "Brite Test Backend Find berry with high potency in spicy flavor",
+              "fullTitle": "Brite Test Backend in firefox Find berry with high potency in spicy flavor",
               "timedOut": null,
-              "duration": 191,
+              "duration": 1381,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -216,23 +216,23 @@
               "context": null,
               "code": "cy.log('Get list of all berries with spicy flavor');\nvar potencyVal = 0;\nvar berryName = 'a';\ncy.getBerryByFlavor('spicy').then(response => {\n  var resBody = response.body;\n  //cy.log(resBody.berries.length)\n  for (var i = 0; i < resBody.berries.length; i++) {\n    if (resBody.berries[i].potency > potencyVal) {\n      potencyVal = resBody.berries[i].potency;\n      berryName = resBody.berries[i].berry.name;\n    }\n    //cy.log(resBody.berries[i].berry.name, berryName , resBody.berries[i].potency , potencyVal)\n  }\n  cy.log(berryName + ' has the highest potency value of ' + potencyVal + ' in spicy flavour');\n  cy.getBerry(berryName).then(response => {\n    cy.log(JSON.stringify(response.body));\n    expect(response.status).to.be.eq(200);\n    expect(response.body).to.be.jsonSchema(berrySuccessSchema);\n  });\n});",
               "err": {},
-              "uuid": "702d6cb9-428b-4afd-9a9f-13c16851f933",
-              "parentUUID": "0922c9bd-e783-45af-8c0d-7b44f65727c3",
+              "uuid": "a6580d24-3534-46e2-9708-00cacadd6d77",
+              "parentUUID": "cbab2781-557c-4ed7-a56f-c9605774759c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "35d8fe6e-9988-4a8b-b67d-d9454e3c7537",
-            "f91dbc62-41bd-4e38-ad11-b6b35e893cc4",
-            "8126be8e-6235-44ed-8cd4-152c6aeccfd8",
-            "702d6cb9-428b-4afd-9a9f-13c16851f933"
+            "07ff921d-3b58-42ee-b763-39a4113d7f7e",
+            "1e0a49c5-0d5c-4850-bd72-f134852181ea",
+            "df09eb75-17d4-4dd5-a494-b3cd95bda547",
+            "a6580d24-3534-46e2-9708-00cacadd6d77"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1095,
+          "duration": 4273,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -248,7 +248,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "75d439ff-c4a7-48e3-a469-fafa86ba6597",
+      "uuid": "0de3e7bd-2914-475a-b6f6-1f3fb22dfa59",
       "title": "",
       "fullFile": "cypress\\e2e\\actorUpcomingTest.cy.js",
       "file": "cypress\\e2e\\actorUpcomingTest.cy.js",
@@ -257,8 +257,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3ce45816-b0b8-4403-93d0-0c2e5bc3ff9d",
-          "title": "Brite Test Frontend",
+          "uuid": "d284e2b0-7d33-4929-8e34-fd2634a66998",
+          "title": "Brite Test Frontend in chrome",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -266,9 +266,9 @@
           "tests": [
             {
               "title": "Test actors upcoming in pre-production",
-              "fullTitle": "Brite Test Frontend Test actors upcoming in pre-production",
+              "fullTitle": "Brite Test Frontend in chrome Test actors upcoming in pre-production",
               "timedOut": null,
-              "duration": 58953,
+              "duration": 27678,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -277,20 +277,78 @@
               "context": null,
               "code": "landingPage.searchBar('Nicolas Cage');\nlandingPage.searchResults();\ncelebrityProfilePage.upcomingProjects('Pre-production');",
               "err": {},
-              "uuid": "a5818da2-3272-4d1d-95a1-4158999b9457",
-              "parentUUID": "3ce45816-b0b8-4403-93d0-0c2e5bc3ff9d",
+              "uuid": "d6513d81-6458-4f14-9947-f65f9140badd",
+              "parentUUID": "d284e2b0-7d33-4929-8e34-fd2634a66998",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a5818da2-3272-4d1d-95a1-4158999b9457"
+            "d6513d81-6458-4f14-9947-f65f9140badd"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 58953,
+          "duration": 27678,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "ab23aa58-6626-482b-b433-474c1d18e9aa",
+      "title": "",
+      "fullFile": "cypress\\e2e\\actorUpcomingTest.cy.js",
+      "file": "cypress\\e2e\\actorUpcomingTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3fc30ddc-90ac-45f9-9c7e-1abb0726323b",
+          "title": "Brite Test Frontend in firefox",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test actors upcoming in pre-production",
+              "fullTitle": "Brite Test Frontend in firefox Test actors upcoming in pre-production",
+              "timedOut": null,
+              "duration": 30276,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "landingPage.searchBar('Nicolas Cage');\nlandingPage.searchResults();\ncelebrityProfilePage.upcomingProjects('Pre-production');",
+              "err": {},
+              "uuid": "dffe9b22-12c0-41fc-bef2-fab5204eab30",
+              "parentUUID": "3fc30ddc-90ac-45f9-9c7e-1abb0726323b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "dffe9b22-12c0-41fc-bef2-fab5204eab30"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30276,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

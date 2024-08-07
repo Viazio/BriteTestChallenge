@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "pretest": "del /Q .\\cypress\\report\\* && del /Q .\\cypress\\report\\mochawesome-report\\* ",
-    "test": "cypress run --browser firefox",
+    "test": "npm run e2e:firefox && npm run e2e:chrome",
+    "e2e:firefox":"cypress run --browser firefox",
+    "e2e:chrome":"cypress run --spec cypress/e2e/actorUpcomingTest.cy.js --browser chrome",
     "posttest": "npm run merge-reports && npm run generate-htmlreport",
     "merge-reports": "mochawesome-merge cypress/report/mochawesome-report/mochawesome*.json > cypress/report/britetest.json",
     "generate-htmlreport": "marge cypress/report/britetest.json --reportDir ./ --inline"

@@ -8,14 +8,12 @@ const celebrityProfilePage = new CelebrityProfilePage
 const moviePage = new MoviePage
 const bornTodayPage = new BornTodayPage
 
-describe('Brite Test Frontend', () => {
+describe('Brite Test Frontend in '+Cypress.browser.name+'', () => {
   beforeEach(function(){
-      //cy.window().then(win => win.onbeforeunload = undefined);
       // Launch browser and navigate to IMDB website
       cy.visit('/', {
         headers: {
-            'accept': 'application/json, text/plain, */*',
-            'User-Agent': 'Mozilla/5.0'
+            'accept': 'application/json, text/plain, */*'
         }
     });
 

@@ -1,4 +1,4 @@
-describe('Brite Test Backend', () => {
+describe('Brite Test Backend in '+Cypress.browser.name+'', () => {
 
     const berrySuccessSchema = require('./schemas/getBerrySuccessResponseSchema.json')
     const berryFlavorSuccessSchema = require('./schemas/getBerryFlavorSuccessResponseSchema.json')
