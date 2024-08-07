@@ -18,6 +18,8 @@
     ````
     INSTALL REPORT 
     ````
+    npm i mochawesome
+    
     npm i mochawesome-report-generator 
     
     npm i mochawesome-merge
