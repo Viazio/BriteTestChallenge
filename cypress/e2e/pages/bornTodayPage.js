@@ -21,16 +21,22 @@ export class BornTodayPage{
     }
 
     formatDate(str) {
-        var d = new Date(),
-            month = '' + (d.getMonth() + 1),
-            year = d.getFullYear() -40
+        var d = new Date()
        
         if(str=='today') 
-          var day = '' +d.getDate()
+         {
+            var day = '' +d.getDate(),
+                month = '' + (d.getMonth() + 1),
+                year = d.getFullYear() -40
 
-
+         }
         if(str=='yesterday')
-            day = '' +( d.getDate()-1)
+        {
+            d.setDate( d.getDate()-1),
+            day = '' +d.getDate(),
+            month = '' + (d.getMonth() + 1),
+            year = d.getFullYear() 
+        }
         
         if (month.length < 2) 
             month = '0' + month
